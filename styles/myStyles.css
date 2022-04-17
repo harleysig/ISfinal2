@@ -1,0 +1,66 @@
+/* Harley Sigmon 4/16 */
+/* Header, body, footer, and positioning styles for Tableau page */
+.static{
+    position: static;
+}
+/* Creates header, body, and footer that resizes with page */
+.header{
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    height: 80px;
+    text-align: right;
+    
+}
+
+.body{
+    top: 90px;
+    right: 5px;
+    left: 5px;
+    bottom: 90px;   
+}
+
+.footer{
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 80px;
+    text-align: center;  
+}   
+/* Customized footer/copyright on all pages */
+.footerstyle{
+    font-style: italic;
+    font-size: 18pt;
+    text-align: center;
+    color: white;
+}
+
+/* Creates customized black background */
+.background{
+    background-color: black;
+}
+
+/* Creates customized font */
+.fonttype{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Changes picture alignment*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Creates customized h2 and h1 tags on all pages */
+h2, h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+/* Customized body, ul, and li tags on all pages */
+body,ul,li{
+    color: white;
+}
+/* Customized a tags on all pages */
+a{
+    color: blue;
+}
+
